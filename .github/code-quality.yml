@@ -1,0 +1,20 @@
+name: Code Quality
+
+on: [push, pull_request]
+
+jobs:
+  quality-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # Java format check
+      - name: Check Java Formatting
+        run: ./gradlew checkstyleMain
+
+      # Python lint
+      - name: Python Lint
+        run: |
+          pip install flake8
+          flake8 scraper-python
