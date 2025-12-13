@@ -72,14 +72,15 @@ Contractor-Quote-Calculator/
 │       ├── build.gradle / pom.xml
 │       └── checkstyle.xml
 │
-├── scraper-python/
-│   ├── src/
-│   │   ├── scrapers/
-│   │   ├── parsers/
-│   │   └── scheduler/
-│   ├── tests/
-│   ├── requirements.txt
-│   └── main.py
+├── scraper/
+│   └── scraper-python/
+│       ├── src/
+│       │   ├── scrapers/
+│       │   ├── parsers/
+│       │   └── scheduler/
+│       ├── tests/
+│       ├── requirements.txt
+│       └── main.py
 │
 ├── frontend/
 │   └── javafx/
@@ -93,16 +94,14 @@ Contractor-Quote-Calculator/
 │   ├── seed-data.sql
 │   └── erd-diagram.png
 │
-├── docs/
+├── Research/
 │   ├── person1/
 │   ├── person2/
 │   ├── person3/
 │   ├── person4/
-│   ├── person5/
-│   ├── competitor-research/
-│   └── api-design/
+│   └── person5/
 │
-├── tests/
+├── Tests/
 │   ├── api/
 │   └── integration/
 │
@@ -118,6 +117,7 @@ Contractor-Quote-Calculator/
 │
 ├── .gitignore
 ├── docker-compose.yml
+├── LICENSE
 └── README.md
 
 
