@@ -57,6 +57,71 @@ It includes:
 - Docker  
 - GitHub Actions CI/CD  
 
+### **📂 Project File Structure**
+Contractor-Quote-Calculator/
+│
+├── backend/
+│   └── java/
+│       ├── src/
+│       │   ├── main/java/
+│       │   │   ├── controller/
+│       │   │   ├── service/
+│       │   │   ├── repository/
+│       │   │   └── model/
+│       │   └── test/java/
+│       ├── build.gradle / pom.xml
+│       └── checkstyle.xml
+│
+├── scraper-python/
+│   ├── src/
+│   │   ├── scrapers/
+│   │   ├── parsers/
+│   │   └── scheduler/
+│   ├── tests/
+│   ├── requirements.txt
+│   └── main.py
+│
+├── frontend/
+│   └── javafx/
+│       ├── controllers/
+│       ├── views/
+│       ├── models/
+│       └── Main.java
+│
+├── database/
+│   ├── schema.sql
+│   ├── seed-data.sql
+│   └── erd-diagram.png
+│
+├── docs/
+│   ├── person1/
+│   ├── person2/
+│   ├── person3/
+│   ├── person4/
+│   ├── person5/
+│   ├── competitor-research/
+│   └── api-design/
+│
+├── tests/
+│   ├── api/
+│   └── integration/
+│
+├── .github/
+│   ├── CODEOWNERS
+│   ├── CONTRIBUTING.md
+│   ├── pull_request_template.md
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+│
+├── .gitignore
+├── docker-compose.yml
+└── README.md
+
+
+
 ---
 
  
