@@ -56,7 +56,6 @@ It includes:
 ### **Deployment**  
 - Docker  
 - GitHub Actions CI/CD  
-
 ---
 
  
