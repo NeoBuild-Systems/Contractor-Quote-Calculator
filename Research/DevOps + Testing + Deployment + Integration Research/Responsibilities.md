@@ -1,3 +1,30 @@
+# DevOps, CI/CD, Testing & Deployment Responsibilities
+
+## 1. CI/CD Setup (GitHub Actions)
+
+**Goal:** Ensure every change is tested, validated, and safe to merge.
+
+### Tasks
+- Set up GitHub Actions pipeline
+  - Create `.github/workflows/ci.yml`
+- Automatically run tests on every PR and push
+  - Java: JUnit tests
+  - Python: PyTest tests
+- Run linting and style checks
+- Block merges if any tests fail
+- Auto-build PDF module to ensure PDF templates do not break
+
+---
+
+## 2. Git Branching & Repository Rules
+
+**Goal:** Maintain clean history, safe merges, and team discipline.
+
+### Tasks
+- Protect `main` and `dev` branches
+- Enforce Pull Request reviews using `CODEOWNERS`
+- Enforce branch naming convention:
+
 - Enable automatic branch deletion after merge
 
 ---
