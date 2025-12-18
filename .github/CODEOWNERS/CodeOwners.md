@@ -14,4 +14,4 @@
 /docs/ @person1 @person2
 
 # DevOps / CI
-.github/workflows/ @person3
+.github/workflows/ @person2
